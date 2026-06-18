@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NODO · Desarrollo de hardware llave en mano</title>
+  <meta name="description" content="De la idea al prototipo funcional. Diseño de PCB, firmware y carcasa 3D en un solo equipo. Tu ventanilla única para crear hardware." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="#top" class="nav__brand">
+      <span class="nav__dot"></span>NODO<span class="nav__brand-sub">/ hardware lab</span>
+    </a>
+    <nav class="nav__links">
+      <a href="#problema">El problema</a>
+      <a href="#programa">El programa</a>
+      <a href="#trabajo">Trabajo</a>
+    </nav>
+    <a href="#contacto" class="btn btn--copper nav__cta">Agendar llamada</a>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <main id="top">
+    <section class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <p class="eyebrow">Desarrollo de hardware · llave en mano</p>
+        <h1 class="hero__title">
+          Convertimos tu idea en <span class="hl">hardware que funciona</span>.
+        </h1>
+        <p class="hero__subtitle">
+          De la idea al prototipo funcional. Sin lidiar con múltiples freelancers.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--copper btn--lg">Agendar llamada de viabilidad</a>
+          <a href="#programa" class="btn btn--ghost btn--lg">Ver cómo trabajamos</a>
+        </div>
+
+        <ul class="hero__stack" aria-label="Tecnologías que usamos">
+          <li>Altium</li>
+          <li>ESP32 · STM32 · ATMEGA</li>
+          <li>Fusion 360 · Inventor</li>
+          <li>MATLAB</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROBLEMA / EMPATÍA ============ -->
+    <section class="problem" id="problema">
+      <div class="problem__inner">
+        <p class="eyebrow eyebrow--cyan">El verdadero retraso</p>
+        <h2 class="problem__title">
+          El problema casi nunca es técnico.<br />Es la coordinación.
+        </h2>
+        <p class="problem__text">
+          Conseguir un MVP físico significa perseguir a un diseñador de PCBs que espera
+          el esquemático, a un programador de firmware que espera la placa, y a un
+          diseñador 3D que espera las medidas finales. Cada traspaso es una semana perdida,
+          un detalle que se cae entre dos personas y una factura más. Cuando algo falla,
+          nadie es el responsable: todos señalan al de al lado.
+        </p>
+        <p class="problem__text problem__text--accent">
+          Si ya viviste ese ping-pong de retrasos, sabes exactamente de qué hablamos.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ PROGRAMA / SOLUCIÓN ============ -->
+    <section class="program" id="programa">
+      <div class="program__head">
+        <p class="eyebrow">La solución</p>
+        <h2 class="program__title">Una sola ventanilla, de principio a fin.</h2>
+        <p class="program__lead">
+          Diseño de PCB, firmware y carcasa 3D bajo un mismo techo. Un equipo, un
+          responsable y una línea recta desde el concepto hasta los archivos listos para fabricar.
+        </p>
+      </div>
+
+      <!-- Signature: traza de cobre conectando las 3 fases -->
+      <div class="phases">
+        <svg class="phases__trace" viewBox="0 0 1100 60" preserveAspectRatio="none" aria-hidden="true">
+          <path class="phases__path" d="M 90 30 H 550 H 1010" fill="none" />
+          <circle class="phases__node" cx="90" cy="30" r="7" />
+          <circle class="phases__node" cx="550" cy="30" r="7" />
+          <circle class="phases__node" cx="1010" cy="30" r="7" />
+        </svg>
+
+        <ol class="phases__list">
+          <li class="phase">
+            <span class="phase__num">01</span>
+            <h3 class="phase__title">Arquitectura y diseño conceptual</h3>
+            <p class="phase__desc">
+              Validación técnica, selección de componentes y esquemáticos en Altium.
+              Antes de rutear una sola pista, confirmamos que la idea es viable.
+            </p>
+          </li>
+          <li class="phase">
+            <span class="phase__num">02</span>
+            <h3 class="phase__title">Desarrollo core y prototipado</h3>
+            <p class="phase__desc">
+              Ruteo de PCB, desarrollo de firmware (ESP32, ATMEGA, STM32) y diseño de la
+              carcasa en Fusion 360 / Inventor. Aquí tu idea toma forma física.
+            </p>
+          </li>
+          <li class="phase">
+            <span class="phase__num">03</span>
+            <h3 class="phase__title">Integración y entrega</h3>
+            <p class="phase__desc">
+              Ensamblaje, pruebas de control en MATLAB, conexión con dashboards y entrega
+              de archivos Gerber listos para manufactura.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PORTAFOLIO ============ -->
+    <section class="work" id="trabajo">
+      <div class="work__head">
+        <p class="eyebrow eyebrow--cyan">En hardware, ver para creer</p>
+        <h2 class="work__title">Hitos que puedes ver funcionando.</h2>
+        <p class="work__lead">
+          Nada de galerías desordenadas. Cada tarjeta es un proyecto real: el problema
+          que resolvimos y el resultado en video o imagen.
+        </p>
+      </div>
+
+      <div class="cards">
+        <!-- CARD 1 -->
+        <article class="card">
+          <div class="card__media">
+            <span class="card__tag">Video · ruteo en Altium</span>
+            <button class="card__play" aria-label="Reproducir video del proyecto">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Sensor LoRa para agricultura</h3>
+            <p class="card__problem"><span>Problema</span> Medir humedad de suelo en campos sin cobertura celular.</p>
+            <p class="card__result"><span>Resultado</span> Prototipo con ESP32 + LoRa y 6 meses de autonomía por carga.</p>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="card">
+          <div class="card__media">
+            <span class="card__tag">Foto · PCB 4 capas</span>
+            <button class="card__play" aria-label="Reproducir video del proyecto">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Driver de motor BLDC</h3>
+            <p class="card__problem"><span>Problema</span> Un control de motor económico para un robot de inspección.</p>
+            <p class="card__result"><span>Resultado</span> PCB de 4 capas ruteada en Altium y firmware sobre STM32.</p>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="card">
+          <div class="card__media">
+            <span class="card__tag">Video · prototipo en vivo</span>
+            <button class="card__play" aria-label="Reproducir video del proyecto">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Datalogger industrial</h3>
+            <p class="card__problem"><span>Problema</span> Registrar variables de una línea de producción en tiempo real.</p>
+            <p class="card__result"><span>Resultado</span> Dashboard en vivo + carcasa impresa lista para planta.</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="work__note">
+        ¿Quieres ver el detalle de alguno? Te muestro la grabación completa en la llamada.
+      </p>
+    </section>
+
+    <!-- ============ CONTACTO / FOOTER ============ -->
+    <section class="contact" id="contacto">
+      <div class="contact__inner">
+        <p class="eyebrow">El siguiente paso</p>
+        <h2 class="contact__title">Hablemos de tu MVP.</h2>
+        <p class="contact__text">
+          Agenda una llamada de viabilidad de <strong>15 minutos, sin compromiso</strong>.
+          Salimos de ahí con una idea clara de qué es posible, cuánto toma y por dónde empezar.
+        </p>
+        <div class="contact__actions">
+          <a href="https://wa.me/51999999999" class="btn btn--copper btn--lg" target="_blank" rel="noopener">
+            Escríbeme por WhatsApp
+          </a>
+          <a href="mailto:hola@nodo.dev?subject=Llamada%20de%20viabilidad%20MVP" class="btn btn--ghost btn--lg">
+            hola@nodo.dev
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span class="foot__brand"><span class="nav__dot"></span>NODO / hardware lab</span>
+    <span class="foot__copy">Diseño de PCB · Firmware · Carcasa 3D — bajo un mismo techo.</span>
+  </footer>
+
+  <script>
+    // Revelado suave al hacer scroll (respeta reduce-motion)
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!reduce && 'IntersectionObserver' in window) {
+      const targets = document.querySelectorAll('[data-reveal], .phase, .card, .problem__inner, .program__head, .work__head, .contact__inner');
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('is-visible');
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+      targets.forEach((el) => { el.classList.add('reveal'); io.observe(el); });
+      // Red de seguridad: si algo no se reveló, mostrarlo igual.
+      setTimeout(() => targets.forEach((el) => el.classList.add('is-visible')), 4000);
+    }
+  </script>
+</body>
+</html>
