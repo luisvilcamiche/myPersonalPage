@@ -23,5 +23,6 @@ Este portafolio fue diseñado con un enfoque minimalista y de altísimo rendimie
 
 ##  Conecta Conmigo
 Si tienes un proyecto de hardware en etapa conceptual o necesitas acelerar la creación de tu Prototipo Funcional:
+*  **Visita la página web:** https://luisvilcamiche.github.io/myPersonalPage/
 *  **LinkedIn:** [Luis Angel Vilcamiche Fernandez](https://www.linkedin.com/in/luis-angel-vilcamiche-fernandez/)
 *  **Hablemos:** ¿Tienes una idea lista para el mercado? Escríbeme y agendemos una rápida llamada de viabilidad técnica.
