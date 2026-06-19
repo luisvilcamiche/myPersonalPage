@@ -3,220 +3,339 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Luis Angel Vilcamiche Fernandez · Desarrollo de MVP en Hardware</title>
-  <meta name="description" content="De la idea al prototipo funcional. Diseño de PCB, firmware y carcasa 3D centralizado en un solo experto. Tu ventanilla única para crear hardware." />
+  <title>Luis Angel Vilcamiche Fernandez · Desarrollo de hardware MVP</title>
+  <meta name="description" content="Un solo ingeniero para PCB, firmware y carcasa 3D. De la idea al prototipo listo para fabricar." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <header class="nav">
-    <a href="#top" class="nav__brand">
-      Luis Angel Vilcamiche Fernandez
+  <header class="topbar">
+    <a href="#top" class="topbar__brand">
+      <span class="dot"></span>
+      <span class="topbar__name">Luis Vilcamiche</span>
+      <span class="topbar__sep">—</span>
+      <span class="topbar__role">Hardware engineer</span>
     </a>
-    <nav class="nav__links">
-      <a href="#problema">El problema</a>
-      <a href="#programa">El programa</a>
-      <a href="#trabajo">Trabajo</a>
+    <nav class="topbar__nav">
+      <a href="#problema">01 Problema</a>
+      <a href="#proceso">02 Proceso</a>
+      <a href="#trabajo">03 Trabajo</a>
+      <a href="#contacto" class="topbar__cta">04 Hablemos →</a>
     </nav>
-    <a href="#contacto" class="btn btn--copper nav__cta">Hablemos de tu MVP</a>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero__grid" aria-hidden="true"></div>
-      <div class="hero__inner">
-        <p class="eyebrow">Desarrollador Integral de Hardware e IoT | Materializo conceptos abstractos en prototipos físicos y funcionales.</p>
+  <main>
+    <!-- ============== HERO ============== -->
+    <section class="hero" id="top">
+      <div class="hero__left">
+        <p class="kicker">Desarrollo integral de hardware · IoT</p>
         <h1 class="hero__title">
-          Convierto tu idea en <span class="hl">hardware que funciona</span>.
+          Convierto tu&nbsp;idea<br />
+          en <em>hardware</em><br />
+          que&nbsp;funciona.
         </h1>
-        <p class="hero__subtitle">
-          De la idea al prototipo funcional. Sin lidiar con múltiples freelancers.
+        <p class="hero__lede">
+          Diseño la PCB, escribo el firmware y modelo la carcasa.
+          Un solo ingeniero, un solo responsable, de la idea al archivo Gerber.
         </p>
-        <div class="hero__actions">
-          <a href="#contacto" class="btn btn--copper btn--lg">Evaluar mi proyecto en 15 min</a>
-          <a href="#programa" class="btn btn--ghost btn--lg">Ver mi proceso</a>
+        <div class="hero__cta">
+          <a href="#contacto" class="cta">
+            <span>Agendar llamada de 15 min</span>
+            <span class="cta__arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#proceso" class="link-ghost">Cómo trabajo</a>
+        </div>
+      </div>
+
+      <aside class="spec" aria-label="Ficha técnica del servicio">
+        <div class="spec__row">
+          <span class="spec__k">Role</span>
+          <span class="spec__v">Hardware engineer / generalist</span>
+        </div>
+        <div class="spec__row">
+          <span class="spec__k">PCB</span>
+          <span class="spec__v">Altium Designer</span>
+        </div>
+        <div class="spec__row">
+          <span class="spec__k">MCU</span>
+          <span class="spec__v">ESP32 · STM32 · ATmega</span>
+        </div>
+        <div class="spec__row">
+          <span class="spec__k">CAD</span>
+          <span class="spec__v">Fusion 360 · Inventor</span>
+        </div>
+        <div class="spec__row">
+          <span class="spec__k">Control</span>
+          <span class="spec__v">MATLAB / Simulink</span>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ============== 01 PROBLEMA ============== -->
+    <section class="section" id="problema">
+      <div class="dim"><span class="dim__label">01 — Problema</span></div>
+
+      <div class="section__inner section__inner--narrow">
+        <h2 class="section__title">
+          El retraso casi nunca es técnico.<br />
+          Es la coordinación.
+        </h2>
+        <div class="prose">
+          <p>
+            Conseguir un MVP físico significa perseguir a tres personas a la vez:
+            al diseñador de PCB que espera el esquemático, al programador de firmware
+            que espera la placa, y al diseñador 3D que espera las medidas.
+          </p>
+          <p>
+            Cada traspaso es una semana perdida, un detalle que se cae entre dos
+            manos, una factura más. Cuando algo falla, nadie es el responsable:
+            todos señalan al de al lado.
+          </p>
         </div>
 
-        <ul class="hero__stack" aria-label="Tecnologías que uso">
-          <li>Altium</li>
-          <li>ESP32 · STM32 · ATMEGA · MORE</li>
-          <li>Fusion 360 · Inventor</li>
-          <li>MATLAB</li>
-        </ul>
+        <blockquote class="quote">
+          <span class="quote__mark" aria-hidden="true">/*</span>
+          Si ya viviste ese ping&#8209;pong de retrasos entre tres freelancers,
+          sabes exactamente de qué hablo.
+          <span class="quote__mark quote__mark--end" aria-hidden="true">*/</span>
+        </blockquote>
       </div>
     </section>
 
-    <section class="problem" id="problema">
-      <div class="problem__inner">
-        <p class="eyebrow eyebrow--cyan">El verdadero retraso</p>
-        <h2 class="problem__title">
-          El problema casi nunca es técnico.<br />Es la coordinación.
-        </h2>
-        <p class="problem__text">
-          Conseguir un MVP físico significa perseguir a un diseñador de PCBs que espera
-          el esquemático, a un programador de firmware que espera la placa, y a un
-          diseñador 3D que espera las medidas finales. Cada traspaso es una semana perdida,
-          un detalle que se cae entre dos personas y una factura más. Cuando algo falla,
-          nadie es el responsable: todos señalan al de al lado.
-        </p>
-        <p class="problem__text problem__text--accent">
-          Si ya viviste ese ping-pong de retrasos, sabes exactamente de qué hablo.
-        </p>
-      </div>
-    </section>
+    <!-- ============== 02 PROCESO ============== -->
+    <section class="section section--alt" id="proceso">
+      <div class="dim"><span class="dim__label">02 — Proceso</span></div>
 
-    <section class="program" id="programa">
-      <div class="program__head">
-        <p class="eyebrow">La solución</p>
-        <h2 class="program__title">Una sola ventanilla, de principio a fin.</h2>
-        <p class="program__lead">
-          Diseño de PCB, firmware y carcasa 3D bajo un mismo techo. Un solo ingeniero experto, un único responsable y una línea recta desde el concepto hasta los archivos listos para fabricar.
-        </p>
-      </div>
+      <div class="section__inner">
+        <div class="section__head">
+          <h2 class="section__title">Una ventanilla, tres fases.</h2>
+          <p class="section__lede">
+            Mismo ingeniero del concepto a la entrega. Las fases existen para
+            ti, no para los traspasos entre equipos.
+          </p>
+        </div>
 
-      <div class="phases">
-        <svg class="phases__trace" viewBox="0 0 1100 60" preserveAspectRatio="none" aria-hidden="true">
-          <path class="phases__path" d="M 90 30 H 550 H 1010" fill="none" />
-          <circle class="phases__node" cx="90" cy="30" r="7" />
-          <circle class="phases__node" cx="550" cy="30" r="7" />
-          <circle class="phases__node" cx="1010" cy="30" r="7" />
-        </svg>
-
-        <ol class="phases__list">
+        <ol class="phases">
           <li class="phase">
-            <span class="phase__num">01</span>
-            <h3 class="phase__title">Arquitectura y diseño conceptual</h3>
+            <div class="phase__head">
+              <span class="phase__num">01</span>
+              <span class="phase__tag">Discovery</span>
+            </div>
+            <h3 class="phase__title">Arquitectura y viabilidad</h3>
             <p class="phase__desc">
-              Validación técnica, selección de componentes y esquemáticos en Altium.
-              Antes de rutear una sola pista, confirmo que tu idea es viable.
+              Validación técnica, selección de componentes, esquemáticos en
+              Altium. Antes de rutear una pista confirmo que la idea es viable
+              y qué la haría caer.
             </p>
+            <ul class="phase__out">
+              <li>Diagrama de bloques</li>
+              <li>BOM preliminar</li>
+              <li>Esquemático rev 1</li>
+            </ul>
           </li>
+
           <li class="phase">
-            <span class="phase__num">02</span>
-            <h3 class="phase__title">Desarrollo core y prototipado</h3>
+            <div class="phase__head">
+              <span class="phase__num">02</span>
+              <span class="phase__tag">Build</span>
+            </div>
+            <h3 class="phase__title">Prototipado físico</h3>
             <p class="phase__desc">
-              Ruteo de PCB, desarrollo de firmware (ESP32, ATMEGA, STM32) y diseño de la
-              carcasa en Fusion 360 / Inventor. Aquí tu idea toma forma física bajo mi supervisión directa.
+              Ruteo de PCB, firmware en ESP32 / STM32 / ATmega y modelado de la
+              carcasa en Fusion 360. Aquí la idea toma forma física bajo una
+              sola supervisión.
             </p>
+            <ul class="phase__out">
+              <li>PCB ruteada · 1 a más capas</li>
+              <li>Firmware base + drivers</li>
+              <li>Carcasa imprimible</li>
+            </ul>
           </li>
+
           <li class="phase">
-            <span class="phase__num">03</span>
+            <div class="phase__head">
+              <span class="phase__num">03</span>
+              <span class="phase__tag">Ship</span>
+            </div>
             <h3 class="phase__title">Integración y entrega</h3>
             <p class="phase__desc">
-              Ensamblaje, pruebas de control en MATLAB, conexión con dashboards y entrega
-              de archivos Gerber listos para manufactura.
+              Ensamble, pruebas de control en MATLAB, conexión con dashboards
+              y entrega del paquete listo para mandar a fabricar.
             </p>
+            <ul class="phase__out">
+              <li>Gerber + drill + pick&amp;place</li>
+              <li>STEP / STL de la carcasa</li>
+              <li>Repo de firmware documentado</li>
+            </ul>
           </li>
         </ol>
       </div>
     </section>
 
-    <section class="work" id="trabajo">
-      <div class="work__head">
-        <p class="eyebrow eyebrow--cyan">En hardware, ver para creer</p>
-        <h2 class="work__title">Hitos que puedes ver funcionando.</h2>
-        <p class="work__lead">
-          Nada de galerías desordenadas. Cada tarjeta es un proyecto real: el problema
-          al que me enfrenté y el resultado en video o imagen.
+    <!-- ============== 03 TRABAJO ============== -->
+    <section class="section" id="trabajo">
+      <div class="dim"><span class="dim__label">03 — Trabajo</span></div>
+
+      <div class="section__inner">
+        <div class="section__head">
+          <h2 class="section__title">Hitos que puedes ver funcionando.</h2>
+          <p class="section__lede">
+            En hardware, ver para creer. Cada entrada es un proyecto real: el
+            problema concreto y el resultado en video.
+          </p>
+        </div>
+
+        <div class="cat">
+          <!-- proyecto destacado: ocupa 7 columnas y dos filas -->
+          <article class="cat__item cat__item--lg">
+            <div class="cat__media">
+              <iframe
+                src="https://www.youtube.com/embed/"
+                title="Control de precisión - Motores DC"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <span class="cat__id">PROJ-001</span>
+            </div>
+            <div class="cat__body">
+              <p class="cat__meta">
+                <span>Hardware</span><span>Firmware</span><span>Control</span>
+              </p>
+              <h3 class="cat__title">Control de precisión para motores DC</h3>
+              <dl class="kv">
+                <dt>Problema</dt>
+                <dd>
+                  Movimiento exacto y control de velocidad para un mecanismo
+                  de posicionamiento robótico, sin recurrir a una placa
+                  comercial sobredimensionada.
+                </dd>
+                <dt>Solución</dt>
+                <dd>
+                  PCB dedicada con driver de potencia, lectura de encoder y
+                  lazo PID embebido. Respuesta milimétrica con un footprint
+                  un tercio menor.
+                </dd>
+              </dl>
+            </div>
+          </article>
+
+          <!-- proyecto chico 1 -->
+          <article class="cat__item">
+            <div class="cat__media cat__media--sm">
+              <iframe
+                src="https://www.youtube.com/embed/"
+                title="Cerebro de alto rendimiento - STM32"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <span class="cat__id">PROJ-002</span>
+            </div>
+            <div class="cat__body">
+              <p class="cat__meta">
+                <span>STM32</span><span>RTOS</span>
+              </p>
+              <h3 class="cat__title">Cerebro de alto rendimiento</h3>
+              <dl class="kv">
+                <dt>Problema</dt>
+                <dd>
+                  El prototipo superaba los límites de las dev boards
+                  comerciales. Necesitaba procesamiento determinista.
+                </dd>
+                <dt>Solución</dt>
+                <dd>
+                  Hardware a medida sobre STM32 + firmware optimizado para
+                  estabilidad industrial.
+                </dd>
+              </dl>
+            </div>
+          </article>
+
+          <!-- proyecto chico 2 -->
+          <article class="cat__item">
+            <div class="cat__media cat__media--sm">
+              <iframe
+                src="https://www.youtube.com/embed/"
+                title="Entorno modular de pruebas"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <span class="cat__id">PROJ-003</span>
+            </div>
+            <div class="cat__body">
+              <p class="cat__meta">
+                <span>Modular</span><span>Iteración</span>
+              </p>
+              <h3 class="cat__title">Entorno modular para pruebas ágiles</h3>
+              <dl class="kv">
+                <dt>Problema</dt>
+                <dd>
+                  Validar múltiples sensores y componentes antes de comprometer
+                  un rev final.
+                </dd>
+                <dt>Solución</dt>
+                <dd>
+                  Placa base con módulos intercambiables. Iteraciones rápidas
+                  y costo de rediseño reducido.
+                </dd>
+              </dl>
+            </div>
+          </article>
+        </div>
+
+        <p class="note">
+          ¿Quieres ver el detalle de alguno? Te muestro la grabación completa
+          en la llamada.
         </p>
       </div>
-
-      <div class="cards">
-        <article class="card">
-          <div class="card__media" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-            <span class="card__tag" style="position: absolute; top: 10px; left: 10px; z-index: 10;">Video · ruteo en Altium</span>
-            
-            <iframe src="https://www.youtube.com/embed/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="card__body">
-            <h3 class="card__title">Control de Precisión (Motores DC)</h3>
-            <p class="card__problem"><span>Problema</span> Necesidad de movimiento exacto y control de velocidad en mecanismos o robótica.</p>
-            <p class="card__result"><span>Resultado</span> Diseño de placa PCB dedicada con algoritmos de control y lectura de encoders para una respuesta física milimétrica.</p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card__media">
-            <div class="card__media" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-            <span class="card__tag" style="position: absolute; top: 10px; left: 10px; z-index: 10;">Video · Algo </span>
-            
-            <iframe src="https://www.youtube.com/embed/url" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          </div>
-          <div class="card__body">
-            <h3 class="card__title">Cerebro de Alto Rendimiento (STM32)</h3>
-            <p class="card__problem"><span>Problema</span> El prototipo exigía un procesamiento robusto, superando los límites de las placas de desarrollo comerciales.</p>
-            <p class="card__result"><span>Resultado</span> Desarrollo de hardware a medida y firmware optimizado en entorno STM32 para lograr máxima estabilidad industrial.</p>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card__media">
-            <div class="card__media" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-            <span class="card__tag" style="position: absolute; top: 10px; left: 10px; z-index: 10;">Video · Algo</span>
-            
-              <iframe src="https://www.youtube.com/embed/url" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             </div>
-          </div>
-          <div class="card__body">
-            <h3 class="card__title">Entorno Modular para Pruebas Ágiles</h3>
-            <p class="card__problem"><span>Problema</span> Requerimiento de validar múltiples sensores y componentes rápidamente antes de la versión definitiva.</p>
-            <p class="card__result"><span>Resultado</span> Creación de una placa base con módulos intercambiables para acelerar iteraciones y reducir severamente costos de rediseño.</p>
-          </div>
-        </article>
-      </div>
-
-      <p class="work__note">
-        ¿Quieres ver el detalle de alguno? Te muestro la grabación completa en la llamada.
-      </p>
     </section>
 
-    <section class="contact" id="contacto">
-      <div class="contact__inner">
-        <p class="eyebrow">El siguiente paso</p>
-        <h2 class="contact__title">Hablemos de tu MVP.</h2>
-        <p class="contact__text">
-          Agenda una llamada de viabilidad de <strong>15 minutos, sin compromiso</strong>.
-          Saldremos de ahí con una idea clara de qué es posible, cuánto toma y por dónde empezar.
+    <!-- ============== 04 CONTACTO ============== -->
+    <section class="section section--alt" id="contacto">
+      <div class="dim"><span class="dim__label">04 — Contacto</span></div>
+
+      <div class="section__inner section__inner--narrow contact">
+        <h2 class="section__title">Hablemos de tu MVP.</h2>
+        <p class="contact__lede">
+          Quince minutos, sin compromiso. Salimos de la llamada con una idea
+          clara de qué es posible, cuánto toma y por dónde empezar.
         </p>
-        <div class="contact__actions">
-          <a href="mailto:luis.vilcamiche.f@gmail.com?subject=Solicitud%20de%20llamada%20de%20viabilidad%20MVP" class="btn btn--copper btn--lg">
-            Contactar por Correo
-          </a>
+
+        <a href="mailto:luis.vilcamiche.f@gmail.com?subject=Solicitud%20de%20llamada%20de%20viabilidad%20MVP" class="cta cta--big">
+          <span>luis.vilcamiche.f@gmail.com</span>
+          <span class="cta__arrow" aria-hidden="true">→</span>
+        </a>
+
+        <div class="contact__alt">
+          <span>O por mensaje directo:</span>
+          <a href="https://www.linkedin.com/in/luis-angel-vilcamiche-fernandez/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="foot-corporate">
-  <div class="foot-corporate__social">
-    <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
-    <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-    <a href="https://www.linkedin.com/in/luis-angel-vilcamiche-fernandez/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1-2 2 2 2 0 0 1 2-2z"></path></svg></a>
-    <a href="https://www.youtube.com/channel/UCaE5cBMxF8_wyp5ViKzLCYw" aria-label="YouTube"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33zM9.75 15.02V8.48l6.5 3.27-6.5 3.27z"></path></svg></a>
-    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
-  </div>
-
-  <div class="foot-corporate__links">
-    <a href="#">Copyrights & Trademark</a>
-    <a href="#">Privacy policy</a>
-    <a href="#">Cookie policy</a>
-    <a href="#">Terms of Service</a>
-    <a href="#">Legal</a>
-  </div>
-
-  <div class="foot-corporate__copy">
-    © 2026 Luis Angel Vilcamiche Fernandez. </div>
-</footer>
+  <footer class="foot">
+    <div class="foot__inner">
+      <div class="foot__col">
+        <p class="foot__sig">Luis Angel Vilcamiche Fernandez</p>
+        <p class="foot__sub">Hardware engineer · PE</p>
+      </div>
+      <div class="foot__col foot__col--mid">
+        <a href="https://www.linkedin.com/in/luis-angel-vilcamiche-fernandez/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.youtube.com/channel/UCaE5cBMxF8_wyp5ViKzLCYw" target="_blank" rel="noopener">YouTube</a>
+        <a href="mailto:luis.vilcamiche.f@gmail.com">Email</a>
+      </div>
+      <div class="foot__col foot__col--end">
+        <p class="foot__place">Perú</p>
+        <p class="foot__year">© 2026 · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
 
   <script>
-    // Revelado suave al hacer scroll (respeta reduce-motion)
+    // Reveal suave al scroll, respeta reduce-motion
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (!reduce && 'IntersectionObserver' in window) {
-      const targets = document.querySelectorAll('[data-reveal], .phase, .card, .problem__inner, .program__head, .work__head, .contact__inner');
+      const targets = document.querySelectorAll('.section, .hero, .phase, .cat__item');
       const io = new IntersectionObserver((entries) => {
         entries.forEach((e) => {
           if (e.isIntersecting) {
@@ -224,10 +343,9 @@
             io.unobserve(e.target);
           }
         });
-      }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+      }, { threshold: 0.08, rootMargin: '0px 0px -6% 0px' });
       targets.forEach((el) => { el.classList.add('reveal'); io.observe(el); });
-      // Red de seguridad: si algo no se reveló, mostrarlo igual.
-      setTimeout(() => targets.forEach((el) => el.classList.add('is-visible')), 4000);
+      setTimeout(() => targets.forEach((el) => el.classList.add('is-visible')), 3500);
     }
   </script>
 </body>
