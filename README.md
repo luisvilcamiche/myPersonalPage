@@ -2,7 +2,7 @@
 
 **Estudiante de Ingeniería Mecatrónica · Universidad Nacional de Ingeniería (UNI), Lima, Perú**
 
-Diseño electrónica y la llevo hasta el prototipo funcional: PCBs, firmware y comunicaciones industriales. Este perfil es el registro abierto de los proyectos que construyo.
+Diseño electrónico y prototipado funcional: PCBs, firmware y comunicaciones industriales. Este perfil es el registro abierto de los proyectos que construyo.
 
 ---
 
@@ -10,7 +10,6 @@ Diseño electrónica y la llevo hasta el prototipo funcional: PCBs, firmware y c
 - Décimo ciclo de Ingeniería Mecatrónica en la UNI
 - Diseño de PCB con Altium Designer: esquemáticos, ruteo, BOM y archivos de fabricación (Gerber)
 - Sistemas embebidos con ESP32 y STM32, y protocolos de comunicación industrial
-- Miembro de **UNI-SAT CubeDesign**: desarrollo de tarjetas electrónicas para un satélite, en colaboración con INPE (Brasil)
 
 ---
 
@@ -30,7 +29,7 @@ Diseño electrónica y la llevo hasta el prototipo funcional: PCBs, firmware y c
 ## Proyectos
 
 ### 🛰️ UNI-SAT CubeDesign
-Tarjetas electrónicas para un satélite, desarrolladas con INPE (Brasil).
+Tarjetas electrónicas para un satélite, desarrolladas con INPE (Brasil-2025).
 `Altium Designer` `Sistemas embebidos`
 👉 [Ver repositorio](#)
 
