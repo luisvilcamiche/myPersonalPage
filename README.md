@@ -1,28 +1,56 @@
-# Luis Angel Vilcamiche - Hardware R&D & MVP Developer 
+# Luis Ángel Vilcamiche Fernández
 
-> **Socio Tecnológico: Transformo requerimientos complejos en hardware manufacturable y escalable.**
+**Estudiante de Ingeniería Mecatrónica · Universidad Nacional de Ingeniería (UNI), Lima, Perú**
 
-Bienvenido al código fuente de mi portafolio digital. Si estás leyendo esto, probablemente seas un fundador técnico, CTO o un apasionado de la ingeniería buscando materializar una idea tecnológica física.
+Diseño electrónica y la llevo hasta el prototipo funcional: PCBs, firmware y comunicaciones industriales. Este perfil es el registro abierto de los proyectos que construyo.
 
-##  Sobre mi Filosofía de Trabajo
-Soy un Ingeniero Mecatrónico (UNI) especializado en actuar como una **"Ventanilla Única"** (One-Stop Shop) para el desarrollo de Hardware e IoT. Mi enfoque principal es salvar a las Startups y PyMEs del enorme dolor de cabeza que implica coordinar a múltiples freelancers independientes (como diseñadores de PCB, programadores y modeladores 3D). Yo centralizo todo el ciclo de desarrollo del producto.
+---
 
-##  Mi Stack de Hardware (El Core de mis Servicios)
-Aunque este repositorio contiene el código de mi web, mi verdadero entorno natural abarca desde el diseño electrónico hasta la envoltura física:
-* **Cerebro y Ruteo:** Altium Designer (Creación de esquemáticos y PCBs, Listas de materiales, Archivos Gerber y más).
-* **Firmware y Lógica:** STM32CubeIDE, Espressif IDE (ESP32), Simplicity Studio y Arduino IDE.
-* **Control y Algoritmos:** Implementación de controladores PID, PD y PI en MATLAB para motores con encoders y sistemas MPPT.
-* **Prototipado Mecánico:** Diseño 3D de carcasas (enclosures) con Autodesk Fusion 360 e Inventor.
+## Sobre mí
+- Décimo ciclo de Ingeniería Mecatrónica en la UNI
+- Diseño de PCB con Altium Designer: esquemáticos, ruteo, BOM y archivos de fabricación (Gerber)
+- Sistemas embebidos con ESP32 y STM32, y protocolos de comunicación industrial
+- Miembro de **UNI-SAT CubeDesign**: desarrollo de tarjetas electrónicas para un satélite, en colaboración con INPE (Brasil)
 
-##  Sobre este Repositorio Web
-Este portafolio fue diseñado con un enfoque minimalista y de altísimo rendimiento para mostrar la evidencia de mis proyectos técnicos. Está construido puramente con:
-* HTML5 Semántico
-* CSS3 (Animaciones y diseño responsivo sin frameworks pesados)
-* Vanilla JavaScript (Para el revelado suave y optimización)
-* Despliegue mediante GitHub Pages.
+---
 
-##  Conecta Conmigo
-Si tienes un proyecto de hardware en etapa conceptual o necesitas acelerar la creación de tu Prototipo Funcional:
-*  **Visita la página web:** https://luisvilcamiche.github.io/myPersonalPage/
-*  **LinkedIn:** [Luis Angel Vilcamiche Fernandez](https://www.linkedin.com/in/luis-angel-vilcamiche-fernandez/)
-*  **Hablemos:** ¿Tienes una idea lista para el mercado? Escríbeme y agendemos una rápida llamada de viabilidad técnica.
+## Stack
+
+| Área | Herramientas |
+|---|---|
+| Diseño electrónico | Altium Designer |
+| Firmware | STM32CubeIDE, Espressif IDE (ESP-IDF), Simplicity Studio, Arduino IDE |
+| Microcontroladores | STM32, ESP32 |
+| Comunicaciones | LoRaWAN, LTE, protocolos industriales |
+| Diseño mecánico | Autodesk Fusion 360, Inventor |
+| Simulación y control | MATLAB (PID / PD / PI, MPPT) |
+
+---
+
+## Proyectos
+
+### 🛰️ UNI-SAT CubeDesign
+Tarjetas electrónicas para un satélite, desarrolladas con INPE (Brasil).
+`Altium Designer` `Sistemas embebidos`
+👉 [Ver repositorio](#)
+
+### 🏎️ Robot velocista (categoría máster)
+Robot seguidor de línea de competencia. Diseño de hardware y PCB: elección de MCU, driver de motores y dimensionamiento de componentes.
+`PCB` `ESP32` `Driver de motores`
+👉 [Ver repositorio](#)
+
+### 🏗️ Telemetría para monitoreo de salud estructural
+Sistema con arquitectura Master–Slave–Gateway usando STM32, ESP32 y módulos LTE Quectel.
+`STM32` `ESP32` `LTE`
+👉 [Ver repositorio](#)
+
+### 💧 Tesis: monitoreo hídrico y atmosférico (cuenca Chancay-Huaral)
+Sistema modular multicapa para monitoreo de agua y condiciones atmosféricas.
+`PCB multicapa` `IoT` `Sensores`
+👉 [Ver repositorio](#)
+
+---
+
+## Contacto
+- 🌐 [Página web](https://luisvilcamiche.github.io/myPersonalPage/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/luis-angel-vilcamiche-fernandez/)
