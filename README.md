@@ -51,5 +51,5 @@ Sistema modular multicapa para monitoreo de agua y condiciones atmosféricas.
 ---
 
 ## Contacto
-- 🌐 [Página web](https://luisvilcamiche.github.io/myPersonalPage/)
+- 🌐 [Página web](#)
 - 💼 [LinkedIn](https://www.linkedin.com/in/luis-angel-vilcamiche-fernandez/)
