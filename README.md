@@ -31,7 +31,7 @@ Diseño electrónico y prototipado funcional: PCBs, firmware y comunicaciones in
 ### 🛰️ UNI-SAT CubeDesign
 Tarjetas electrónicas para un satélite, desarrolladas con INPE (Brasil-2025).
 `Altium Designer` `Sistemas embebidos`
-👉 [Ver repositorio](#)
+👉 [Ver repositorio](https://luisvilcamiche.github.io/myPersonalPage/)
 
 ### 🏎️ Robot velocista (categoría máster)
 Robot seguidor de línea de competencia. Diseño de hardware y PCB: elección de MCU, driver de motores y dimensionamiento de componentes.
