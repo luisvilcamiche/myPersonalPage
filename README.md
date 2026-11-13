@@ -1,55 +1,57 @@
 # Luis Angel
 
-**Estudiante de Ingeniería Mecatrónica · Universidad Nacional de Ingeniería (UNI), Lima, Perú**
+**Mechatronics Engineering Student · National University of Engineering (UNI), Lima, Peru**
 
-Diseño electrónico y prototipado funcional: PCBs, firmware y comunicaciones industriales. Este perfil es el registro abierto de los proyectos que construyo.
+Electronic design and functional prototyping: PCBs, firmware, and industrial communications. This profile is an open registry of the projects I build.
 
 ---
 
-## Sobre mí
-- Décimo ciclo de Ingeniería Mecatrónica en la UNI
-- Diseño de PCB con Altium Designer: esquemáticos, ruteo, BOM y archivos de fabricación (Gerber)
-- Sistemas embebidos con ESP32 y STM32, y protocolos de comunicación industrial
+## About me
+
+- 10th semester of Mechatronics Engineering at UNI
+- PCB design with Altium Designer: schematics, routing, BOM, and manufacturing files (Gerber)
+- Embedded systems with ESP32 and STM32, and industrial communication protocols
 
 ---
 
 ## Stack
 
-| Área | Herramientas |
+| Area | Tools |
 |---|---|
-| Diseño electrónico | Altium Designer |
+| Electronic Design | Altium Designer |
 | Firmware | STM32CubeIDE, Espressif IDE (ESP-IDF), Simplicity Studio, Arduino IDE |
-| Microcontroladores | STM32, ESP32 |
-| Comunicaciones | LoRaWAN, LTE, protocolos industriales |
-| Diseño mecánico | Autodesk Fusion 360, Inventor |
-| Simulación y control | MATLAB (PID / PD / PI, MPPT) |
+| Microcontrollers | STM32, ESP32 |
+| Communications | LoRaWAN, LTE, industrial protocols |
+| Mechanical Design | Autodesk Fusion 360, Inventor |
+| Simulation & Control | MATLAB (PID / PD / PI, MPPT) |
 
 ---
 
-## Proyectos
+## Projects
 
 ### 🛰️ UNI-SAT CubeDesign
-Tarjetas electrónicas para un satélite, desarrolladas con INPE (Brasil-2025).
-`Altium Designer` `Sistemas embebidos`
-👉 [Ver repositorio](https://luisvilcamiche.github.io/myPersonalPage/)
+Electronic boards for a satellite, developed with INPE (Brazil-2025).
+` Altium Designer ` ` Embedded systems ` 
+👉 [View repository](https://luisvilcamiche.github.io/myPersonalPage/)
 
-### 🏎️ Robot velocista (categoría máster)
-Robot seguidor de línea de competencia. Diseño de hardware y PCB: elección de MCU, driver de motores y dimensionamiento de componentes.
-`PCB` `ESP32` `Driver de motores`
-👉 [Ver repositorio](#)
+### 🏎️ Line Follower Robot (Master Category)
+Competitive line follower robot. Hardware and PCB design: MCU selection, motor driver, and component sizing.
+` PCB ` ` ESP32 ` ` Motor driver ` 
+👉 [View repository](#)
 
-### 🏗️ Telemetría para monitoreo de salud estructural
-Sistema con arquitectura Master–Slave–Gateway usando STM32, ESP32 y módulos LTE Quectel.
-`STM32` `ESP32` `LTE`
-👉 [Ver repositorio](#)
+### 🏗️ Structural Health Monitoring Telemetry
+Master-Slave-Gateway architecture system using STM32, ESP32, and Quectel LTE modules.
+` STM32 ` ` ESP32 ` ` LTE ` 
+👉 [View repository](#)
 
-### 💧 Tesis: monitoreo hídrico y atmosférico (cuenca Chancay-Huaral)
-Sistema modular multicapa para monitoreo de agua y condiciones atmosféricas.
-`PCB multicapa` `IoT` `Sensores`
-👉 [Ver repositorio](#)
+### 💧 Thesis: Hydrological and Atmospheric Monitoring (Chancay-Huaral Basin)
+Multilayer modular system for water and atmospheric conditions monitoring.
+` Multilayer PCB ` ` IoT ` ` Sensors ` 
+👉 [View repository](#)
 
 ---
 
-## Contacto
-- 🌐 [Página web](#)
+## Contact
+
+- 🌐 [Website](#)
 - 💼 [LinkedIn](https://www.linkedin.com/in/luis-angel-vilcamiche-fernandez/)
