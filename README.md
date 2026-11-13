@@ -38,8 +38,8 @@ Competitive line follower robot. Hardware and PCB design: MCU selection, motor d
 ` PCB ` ` ESP32 ` ` Motor driver ` 
 👉 [View repository](https://github.com/luisvilcamiche/luisvilcamiche/blob/main/README.md#)
 
-### 🏗️ Structural Health Monitoring Telemetry
-Master-Slave-Gateway architecture system using STM32, ESP32, and Quectel LTE modules.
+### ⚙️ Motor Monitoring System
+Master-Slave-Gateway architecture system using STM32, ESP32, and Quectel LTE modules for real-time motor data acquisition.
 ` STM32 ` ` ESP32 ` ` LTE ` 
 👉 [View repository](https://github.com/luisvilcamiche/luisvilcamiche/blob/main/README.md#)
 
