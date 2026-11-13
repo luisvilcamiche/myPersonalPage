@@ -1,4 +1,4 @@
-# Luis Ángel Vilcamiche Fernández
+# Luis Angel
 
 **Estudiante de Ingeniería Mecatrónica · Universidad Nacional de Ingeniería (UNI), Lima, Perú**
 
