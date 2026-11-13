@@ -1,6 +1,6 @@
 # Luis Angel
 
-**Mechatronics Engineering Student · National University of Engineering (UNI), Lima, Peru**
+**Mechatronics Engineering · National University of Engineering (UNI), Lima, Peru**
 
 Electronic design and functional prototyping: PCBs, firmware, and industrial communications. This profile is an open registry of the projects I build.
 
@@ -8,7 +8,6 @@ Electronic design and functional prototyping: PCBs, firmware, and industrial com
 
 ## About me
 
-- 10th semester of Mechatronics Engineering at UNI
 - PCB design with Altium Designer: schematics, routing, BOM, and manufacturing files (Gerber)
 - Embedded systems with ESP32 and STM32, and industrial communication protocols
 
@@ -37,21 +36,21 @@ Electronic boards for a satellite, developed with INPE (Brazil-2025).
 ### 🏎️ Line Follower Robot (Master Category)
 Competitive line follower robot. Hardware and PCB design: MCU selection, motor driver, and component sizing.
 ` PCB ` ` ESP32 ` ` Motor driver ` 
-👉 [View repository](#)
+👉 [View repository](https://github.com/luisvilcamiche/luisvilcamiche/blob/main/README.md#)
 
 ### 🏗️ Structural Health Monitoring Telemetry
 Master-Slave-Gateway architecture system using STM32, ESP32, and Quectel LTE modules.
 ` STM32 ` ` ESP32 ` ` LTE ` 
-👉 [View repository](#)
+👉 [View repository](https://github.com/luisvilcamiche/luisvilcamiche/blob/main/README.md#)
 
 ### 💧 Thesis: Hydrological and Atmospheric Monitoring (Chancay-Huaral Basin)
 Multilayer modular system for water and atmospheric conditions monitoring.
 ` Multilayer PCB ` ` IoT ` ` Sensors ` 
-👉 [View repository](#)
+👉 [View repository](https://github.com/luisvilcamiche/luisvilcamiche/blob/main/README.md#)
 
 ---
 
 ## Contact
 
-- 🌐 [Website](#)
+- 🌐 [Website](https://github.com/luisvilcamiche/luisvilcamiche/blob/main/README.md#)
 - 💼 [LinkedIn](https://www.linkedin.com/in/luis-angel-vilcamiche-fernandez/)
